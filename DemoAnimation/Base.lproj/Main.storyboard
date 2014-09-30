@@ -22,6 +22,16 @@
                                     <segue destination="9zd-bd-hcn" kind="push" id="tT3-Ce-9Bf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y43-iJ-y20">
+                                <rect key="frame" x="106" y="115" width="108" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Animate UIView">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="i6B-bY-HZw" kind="push" id="UGd-GL-znd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -66,7 +76,44 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g67-ZO-eNV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="72" y="1036"/>
+            <point key="canvasLocation" x="2" y="1044"/>
+        </scene>
+        <!--Animate UIView-->
+        <scene sceneID="mOm-Ut-5LL">
+            <objects>
+                <viewController id="i6B-bY-HZw" customClass="AnimateUIViewViewController" customModule="DemoAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DjW-l5-aqv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eds-v5-EfN">
+                                <rect key="frame" x="140" y="518" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Down">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goDownTapped:" destination="i6B-bY-HZw" eventType="touchUpInside" id="TDg-WV-s8C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1OZ-RC-i5b">
+                                <rect key="frame" x="145" y="480" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Up">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goUpTapped:" destination="i6B-bY-HZw" eventType="touchUpInside" id="FCJ-Wk-4Ng"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Animate UIView" id="S9a-CN-DbA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hZr-Ah-oAy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="1036"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cd0-hD-For">
