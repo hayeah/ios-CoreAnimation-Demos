@@ -14,6 +14,8 @@ class AnimateUIViewViewController: UIViewController {
     var boxTopPosition: CGPoint!
     var boxBottomPosition: CGPoint!
 
+    @IBOutlet weak var animationRunningLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,16 +30,25 @@ class AnimateUIViewViewController: UIViewController {
     }
 
     func goUp() {
-        UIView.animateWithDuration(0.25, animations: {
+        animationRunningLabel.hidden = false
+        UIView.animateWithDuration(0.25,
+        animations: {
             // box.center = boxTopPosition
             self.box.layer.position = self.boxTopPosition
+        },
+        completion: { isCompleted in
+            self.animationRunningLabel.hidden = true
         })
     }
 
     func goDown() {
-        UIView.animateWithDuration(0.25, animations: {
+        animationRunningLabel.hidden = false
+        UIView.animateWithDuration(0.25,
+        animations: {
             // box.center = boxBottomPosition
             self.box.layer.position = self.boxBottomPosition
+        },completion: { isCompleted in
+            self.animationRunningLabel.hidden = true
         })
     }
 
