@@ -13,6 +13,7 @@
 		8940892419DAAA4C0006507D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8940892319DAAA4C0006507D /* Images.xcassets */; };
 		8940892719DAAA4C0006507D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8940892519DAAA4C0006507D /* LaunchScreen.xib */; };
 		8940893319DAAA4C0006507D /* DemoAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8940893219DAAA4C0006507D /* DemoAnimationTests.swift */; };
+		8940893D19DAAB910006507D /* ImplicitAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8940893C19DAAB910006507D /* ImplicitAnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8940892C19DAAA4C0006507D /* DemoAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8940893119DAAA4C0006507D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8940893219DAAA4C0006507D /* DemoAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAnimationTests.swift; sourceTree = "<group>"; };
+		8940893C19DAAB910006507D /* ImplicitAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				8940892319DAAA4C0006507D /* Images.xcassets */,
 				8940892519DAAA4C0006507D /* LaunchScreen.xib */,
 				8940891A19DAAA4C0006507D /* Supporting Files */,
+				8940893C19DAAB910006507D /* ImplicitAnimationViewController.swift */,
 			);
 			path = DemoAnimation;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8940893D19DAAB910006507D /* ImplicitAnimationViewController.swift in Sources */,
 				8940891F19DAAA4C0006507D /* ViewController.swift in Sources */,
 				8940891D19DAAA4C0006507D /* AppDelegate.swift in Sources */,
 			);
