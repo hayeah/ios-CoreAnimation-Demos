@@ -22,17 +22,19 @@ class ImplicitAnimationViewController: UIViewController {
         boxBottomPosition = CGPoint(x: view.center.x, y: 350)
 
         box = CALayer()
-        box.backgroundColor = UIColor.blueColor().CGColor
-        box.bounds.size = CGSize(width: 60, height: 60)
         view.layer.addSublayer(box)
         goUp()
     }
 
     func goUp() {
+        box.backgroundColor = UIColor.blueColor().CGColor
+        box.bounds.size = CGSize(width: 60, height: 60)
         box.position = boxTopPosition
     }
 
     func goDown() {
+        box.backgroundColor = UIColor.redColor().CGColor
+        box.bounds.size = CGSize(width: 120, height: 120)
         box.position = boxBottomPosition
     }
 
