@@ -32,6 +32,16 @@
                                     <segue destination="i6B-bY-HZw" kind="push" id="UGd-GL-znd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0C1-kM-ul3">
+                                <rect key="frame" x="57" y="144" width="207" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Interrupted Animation (Jumpy)">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LwX-aE-MXO" kind="push" id="4lD-EV-Ign"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -113,7 +123,44 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hZr-Ah-oAy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="460" y="1036"/>
+            <point key="canvasLocation" x="414" y="1036"/>
+        </scene>
+        <!--Animation Interrupt Jump View Controller-->
+        <scene sceneID="scg-Ua-9Eg">
+            <objects>
+                <viewController id="LwX-aE-MXO" customClass="AnimationInterruptJumpViewController" customModule="DemoAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="78g-1F-r9c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4oD-Nw-uMb">
+                                <rect key="frame" x="140" y="518" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Down">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goDownTapped:" destination="LwX-aE-MXO" eventType="touchUpInside" id="4Ab-dX-goh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4d4-RU-yXF">
+                                <rect key="frame" x="145" y="480" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Up">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goUpTapped:" destination="LwX-aE-MXO" eventType="touchUpInside" id="CQP-W5-cNS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="web-Wx-xHR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRP-j4-iF0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="771" y="1036"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cd0-hD-For">

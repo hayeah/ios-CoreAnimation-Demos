@@ -15,6 +15,7 @@
 		8940893319DAAA4C0006507D /* DemoAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8940893219DAAA4C0006507D /* DemoAnimationTests.swift */; };
 		8940893D19DAAB910006507D /* ImplicitAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8940893C19DAAB910006507D /* ImplicitAnimationViewController.swift */; };
 		8940893F19DADC1C0006507D /* AnimateUIViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8940893E19DADC1C0006507D /* AnimateUIViewViewController.swift */; };
+		8986B29119DBE4E3001C31F1 /* AnimationInterruptJumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986B29019DBE4E3001C31F1 /* AnimationInterruptJumpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8940893219DAAA4C0006507D /* DemoAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAnimationTests.swift; sourceTree = "<group>"; };
 		8940893C19DAAB910006507D /* ImplicitAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationViewController.swift; sourceTree = "<group>"; };
 		8940893E19DADC1C0006507D /* AnimateUIViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateUIViewViewController.swift; sourceTree = "<group>"; };
+		8986B29019DBE4E3001C31F1 /* AnimationInterruptJumpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationInterruptJumpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				8940891A19DAAA4C0006507D /* Supporting Files */,
 				8940893C19DAAB910006507D /* ImplicitAnimationViewController.swift */,
 				8940893E19DADC1C0006507D /* AnimateUIViewViewController.swift */,
+				8986B29019DBE4E3001C31F1 /* AnimationInterruptJumpViewController.swift */,
 			);
 			path = DemoAnimation;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				8940893D19DAAB910006507D /* ImplicitAnimationViewController.swift in Sources */,
 				8940893F19DADC1C0006507D /* AnimateUIViewViewController.swift in Sources */,
 				8940891F19DAAA4C0006507D /* ViewController.swift in Sources */,
+				8986B29119DBE4E3001C31F1 /* AnimationInterruptJumpViewController.swift in Sources */,
 				8940891D19DAAA4C0006507D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				8940893819DAAA4C0006507D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8940893919DAAA4C0006507D /* Build configuration list for PBXNativeTarget "DemoAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				8940893B19DAAA4C0006507D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
