@@ -38,23 +38,36 @@ class BadNonAnimationChangesViewController: UIViewController {
         view.addSubview(box)
     }
 
+    var ongoingAnimationCount = 0
     @IBAction func moveToLeft() {
-        box.center = boxBottomPosition
+        // Only reset to bottom for the very first animation.
+        if ongoingAnimationCount == 0{
+            box.center = boxBottomPosition
+        }
+        ongoingAnimationCount++
+
         UIView.animateWithDuration(1,
             animations: {
                 self.box.center = self.boxTopLeftPosition
             },
             completion: { completed in
+                self.ongoingAnimationCount -= 1
+                // self.ongoingAnimationCount-- // lol syntax error?
         })
     }
 
     @IBAction func moveToRight() {
-        box.center = boxBottomPosition
+        // Only reset to bottom for the very first animation.
+        if ongoingAnimationCount == 0{
+            box.center = boxBottomPosition
+        }
+        ongoingAnimationCount++
         UIView.animateWithDuration(1,
             animations: {
                 self.box.center = self.boxTopRightPosition
             },
             completion: { completed in
+                self.ongoingAnimationCount -= 1
         })
     }
 
