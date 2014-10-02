@@ -16,6 +16,7 @@
 		8940893D19DAAB910006507D /* ImplicitAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8940893C19DAAB910006507D /* ImplicitAnimationViewController.swift */; };
 		8940893F19DADC1C0006507D /* AnimateUIViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8940893E19DADC1C0006507D /* AnimateUIViewViewController.swift */; };
 		8986B29119DBE4E3001C31F1 /* AnimationInterruptJumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986B29019DBE4E3001C31F1 /* AnimationInterruptJumpViewController.swift */; };
+		8986B29319DC2794001C31F1 /* BadNonAnimationChangesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986B29219DC2794001C31F1 /* BadNonAnimationChangesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		8940893C19DAAB910006507D /* ImplicitAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationViewController.swift; sourceTree = "<group>"; };
 		8940893E19DADC1C0006507D /* AnimateUIViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateUIViewViewController.swift; sourceTree = "<group>"; };
 		8986B29019DBE4E3001C31F1 /* AnimationInterruptJumpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationInterruptJumpViewController.swift; sourceTree = "<group>"; };
+		8986B29219DC2794001C31F1 /* BadNonAnimationChangesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadNonAnimationChangesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				8940893C19DAAB910006507D /* ImplicitAnimationViewController.swift */,
 				8940893E19DADC1C0006507D /* AnimateUIViewViewController.swift */,
 				8986B29019DBE4E3001C31F1 /* AnimationInterruptJumpViewController.swift */,
+				8986B29219DC2794001C31F1 /* BadNonAnimationChangesViewController.swift */,
 			);
 			path = DemoAnimation;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				8940893D19DAAB910006507D /* ImplicitAnimationViewController.swift in Sources */,
 				8940893F19DADC1C0006507D /* AnimateUIViewViewController.swift in Sources */,
 				8940891F19DAAA4C0006507D /* ViewController.swift in Sources */,
+				8986B29319DC2794001C31F1 /* BadNonAnimationChangesViewController.swift in Sources */,
 				8986B29119DBE4E3001C31F1 /* AnimationInterruptJumpViewController.swift in Sources */,
 				8940891D19DAAA4C0006507D /* AppDelegate.swift in Sources */,
 			);
